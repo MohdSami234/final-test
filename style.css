@@ -1,0 +1,43 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+
+#addcontainer{
+    width:40vw;
+    height:40vh;
+    background-color: rgb(147, 236, 236);
+    margin:auto;
+    margin-top:10rem;
+    border:2px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+input{
+    border: 2px solid black;
+    outline: none;
+}
+a{
+    text-decoration:none;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color:brown;
+}
+
+.editdiv{
+    width:40vw;
+    height:40vh;
+    background-color: rgb(138, 133, 133);
+    position: fixed;
+    top:10rem;
+    left:30vw;
+    text-align: center;
+    border:2px solid black;
+}
+.editdiv input,textarea{
+    margin-top:3rem;
+    color:rgb(31, 20, 20)
+}
